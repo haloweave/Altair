@@ -108,12 +108,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     'gatsby-plugin-image',
-    "gatsby-theme-gallery",
     {
       resolve: `gatsby-source-instagram`,
       options: {
         // type: `user-profile`,
-        username: config.social.instagram,
+        
+        username: 249087743,
       },
     },
   ],
