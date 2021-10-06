@@ -13,6 +13,10 @@ html, body {
   display: none;
 }
 
+.overflow-hide{
+  
+}
+
 /* Hide scrollbar for IE, Edge and Firefox */
 .body {
   -ms-overflow-style: none;  /* IE and Edge */
@@ -30,6 +34,7 @@ html, body {
 .block {
   position: relative;
   height: 100vh;
+  overflow: hidden;
 }
 
 [class*='item-parallax'] {
