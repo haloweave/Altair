@@ -111,7 +111,11 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `249087743`,
+        username: `altairavenue`,
+        access_token: "EAAE2s3o6uvkBAOBTbph0XzByioM2ZCdEBYvbrHCZAP6QCggKVvaFMfs8UDromC8gZCUtCSwVTrHsq0UZBkZBHdFB2XEWMZCrwOHGZC5SdTKOSEPI70KPS6fIBzmWyvqTB4G5eNTx1HClU88zzaLnUEzxcpihwZACpzKksOZBqAn9p9QZDZD",
+        instagram_id: "17841448796401327",
+        maxPosts: 1000,
+        hashtags: true
       },
     },
   ],
