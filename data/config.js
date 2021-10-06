@@ -7,13 +7,11 @@ module.exports = {
   // Your legal name.
   legalName: 'Gatsby Starter',
   // URL to this website. If you bought `www.domain.com`, then it will be `www.domain.com`.
-  url: 'https://www.robonomy.com',
+  
   // Favicon that will display on browsers.
   logo: 'static/images/favicon.png',
   // Who made this website?
-  author: 'Juan Alejandro Morais',
   // What's the website of the author?
-  authorUrl: 'https://www.timrodz.com',
   // Your social media presence, in the form of usernames.
   social: {
     // tells the Instagram API the username to get posts from. 
@@ -29,7 +27,7 @@ module.exports = {
     twitter: 'https://twitter.com/kxyril',
   },
   // If applicable, your Google Analytics crawl ID.
-  googleAnalyticsId: 'UA-XXXXXXXX-X',
+  // googleAnalyticsId: 'UA-XXXXXXXX-X',
   // Colours that represent your website.
   themeColor: '#000',
   backgroundColor: '#fff',
@@ -39,10 +37,7 @@ module.exports = {
     country: 'Country',
   },
   // Basic contact details.
-  contact: {
-    // Email address to contact you.
-    email: 'timrodz@icloud.com',
-  },
+
   // When was this website created?
   foundingDate: '2020',
 };
