@@ -1,6 +1,5 @@
 {
   "name": "altair-avenue",
-
   "dependencies": {
     "baseui": "^10.3.0",
     "gatsby": "^2.32.13",
@@ -63,7 +62,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaporwavy/gatsby-london-after-midnight.git"
+    "url": "git+https://github.com/haloweave/altair.git"
   },
   "scripts": {
     "build": "gatsby build",

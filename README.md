@@ -8,17 +8,13 @@
 <h1 align="center">
   Altair Avenue
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/weensykim/gatsby-london-after-midnight)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haloweave/altair)
 
 </h1>
 
 ---
 
-A custom, image-centric theme for Gatsby. Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
-
-**Based on [London](https://github.com/ImedAdel/gatsby-london) for Gatsby**
-
-**Demo: https://gatsby-lam.weensy.co**
+Altair Avenue Website with instagram api as gallery to fetch from Instagram Public Account
 
 ---
 
@@ -43,7 +39,7 @@ _First time with Gatsby? Take a look on the [official and community-created star
 
     ```sh
     # create a new Gatsby site using the blog starter
-    npx gatsby new my-awesome-portfolio https://github.com/weensykim/gatsby-london-after-midnight
+    npx gatsby new my-awesome-portfolio 
     ```
 
 1.  **Start developing.**
