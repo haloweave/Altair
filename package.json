@@ -1,12 +1,6 @@
 {
-  "name": "gatsby-london-after-midnight",
-  "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
-  "version": "1.0.2",
-  "author": "weensykim <hello@weensy.co> (https://weensy.co)",
-  "bugs": {
-    "url": "https://github.com/weensykim/gatsby-london-after-midnight/issues"
-  },
+  "name": "altair-avenue",
+
   "dependencies": {
     "baseui": "^10.3.0",
     "gatsby": "^2.32.13",
