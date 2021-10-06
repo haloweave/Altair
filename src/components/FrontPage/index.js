@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
+
 import { StaticImage } from "gatsby-plugin-image"
 import './Frontpage.scss'
 
