@@ -1,10 +1,13 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -13,14 +16,13 @@ html, body {
   display: none;
 }
 
-.overflow-hide{
-  
+.overflow-hide {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .body {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .content {
@@ -37,7 +39,7 @@ html, body {
   overflow: hidden;
 }
 
-[class*='item-parallax'] {
+[class*="item-parallax"] {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -47,7 +49,7 @@ html, body {
 
 .item-parallax-media {
   z-index: 1;
-  
+
   img {
     will-change: transform; // prevents paint flashing
   }
@@ -56,32 +58,30 @@ html, body {
   z-index: 2;
 }
 
-
 $boxes: 5;
 @for $i from 1 through $boxes {
-  .block:nth-child( #{$i} ) .item-parallax-content {
-    transform: translateY( calc( var(--yBlock-#{$i}) * 0.5px ) );
+  .block:nth-child(#{$i}) .item-parallax-content {
+    transform: translateY(calc(var(--yBlock-#{$i}) * 0.5px));
   }
-  .block:nth-child( #{$i} ) .item-parallax-media img {
-    transform: translateY( calc( var(--yBlock-#{$i}) * 0.1px ) );
+  .block:nth-child(#{$i}) .item-parallax-media img {
+    transform: translateY(calc(var(--yBlock-#{$i}) * 0.1px));
   }
 }
-
 
 // --------------- layout
 
 $dark: #00171f;
 $light: white;
 
-@mixin font($type:regular) {
+@mixin font($type: regular) {
   @if $type == head {
-    font-family: 'Inknut Antiqua', serif;
+    font-family: "Inknut Antiqua", serif;
   }
   @if $type == regular {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   @if $type == condensed {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
   }
 }
 
@@ -89,8 +89,7 @@ $light: white;
   @if $value == on {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  @else {
+  } @else {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
   }
@@ -128,8 +127,6 @@ html {
   text-align: center;
 }
 
-
-
 .copy {
   display: block;
   max-width: 500px;
@@ -148,17 +145,11 @@ html {
   @include font-smoothing(on);
 }
 
-
-
-
-
-
-
 .item-parallax-media {
   overflow: hidden;
-  
+
   img {
-     /* position: absolute;*/
+    /* position: absolute;*/
     top: -10%;
     left: -10%;
     width: 120%;
@@ -169,7 +160,7 @@ html {
 
 // ------------ landing
 .section-landing:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 24%;
@@ -181,7 +172,7 @@ html {
 }
 
 .section-landing .item-parallax-media {
-  opacity: calc( 1 - (var(--y) * 0.0009) );
+  opacity: calc(1 - (var(--y) * 0.0009));
 }
 
 .landing-content {
@@ -190,21 +181,17 @@ html {
 
 // ---------------- intro
 .section-intro:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   width: 10px;
   height: 80%;
   background-color: mix($light, $dark, 5%);
-  transform: 
-    translateX(-50%) 
-    translateY(-50%) 
-    rotate( calc( (var(--y) * 0.1deg) ) );
+  transform: translateX(-50%) translateY(-50%) rotate(calc((var(--y) * 0.1deg)));
   will-change: transform;
   backface-visibility: visible;
 }
-
 
 // ------------------ image grid
 .img-grid {
@@ -218,7 +205,7 @@ html {
   max-width: 800px;
   margin-right: auto;
   margin-left: auto;
-  
+
   img {
     display: block;
     width: 50%;
@@ -227,21 +214,21 @@ html {
     will-change: transform;
     backface-visibility: visible;
   }
-  
+
   &.type-left img {
-    margin-right: auto;  
+    margin-right: auto;
   }
   &.type-right img {
-    margin-left: auto;  
+    margin-left: auto;
   }
 }
 
 .img-gridItem {
   &:nth-child(1) img {
-    transform: translateX( calc( var(--yBlock-4) * -0.03% ) );
+    transform: translateX(calc(var(--yBlock-4) * -0.03%));
   }
   &:nth-child(2) img {
-    transform: translateX( calc( var(--yBlock-4) * 0.03% ) );
+    transform: translateX(calc(var(--yBlock-4) * 0.03%));
   }
 }
 
@@ -250,13 +237,13 @@ html {
   top: 50%;
   width: 50%;
   transform: translateY(-50%);
-  
+
   * {
-      text-align: left;
-      padding-right: 1.5rem;
-      padding-left: 1.5rem;
-    }
-  
+    text-align: left;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
   .type-left & {
     right: 0;
   }
@@ -265,10 +252,12 @@ html {
   }
 }
 
-
+.gatsby-image-wrapper {
+  height: 100%;
+}
 // ---------------- end
 .section-end:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 50%;
   left: 24%;
@@ -279,11 +268,10 @@ html {
   transform: translateY(8vw);
 }
 
-
 // -------------- kind of a footer
 .custom-properties-ftw {
   padding: 2.5rem 1.5rem;
-  
+
   .head-small {
     margin-bottom: 0;
   }

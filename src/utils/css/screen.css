@@ -157,7 +157,7 @@ body {
 .nav {
   display: flex;
   margin: 0 0 0 -12px;
-  padding: 0;
+  padding-left: 6vw;
   list-style: none;
 }
 
@@ -219,12 +219,14 @@ body {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  padding-right: 6vw;
 }
 
 .social-links {
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  padding-left: 6vw;
 }
 
 .subscribe-button {
@@ -274,6 +276,7 @@ body {
   }
   .nav-burger {
     display: block;
+    padding: 2vw;
   }
   .site-head-container {
     flex-direction: column;
