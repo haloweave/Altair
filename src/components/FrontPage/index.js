@@ -62,7 +62,7 @@ export default class index extends Component {
         <section class="block section-intro">
           <div class="item-parallax-content flex-container">
             <div class="centered-content">
-              <h2 class="head-small head-centered">About</h2>
+              <h2 class="head-large head-centered">About</h2>
               <p class="copy copy-white">
                 Altair Avenue is a subsidiary of Veritas Fintech Solutions, a
                 full- service interior design firm located in Bangalore area

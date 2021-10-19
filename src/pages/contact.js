@@ -13,25 +13,17 @@ const ElementsPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO
-        title="Elements"
-      />
+      <SEO title="Elements" />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
-        <h2 id="this-is-a-section">Contact Us</h2>
-          <h3>
-          +91 7348849177 | +91 7348849077
-          </h3>
-          <h3>
-          business@altairavenue.com
-            </h3>
-          <h3>
-          WhatsApp / Instagram
-          </h3>
+          <h2 id="this-is-a-section">Contact Us</h2>
+          <h3>+91 7348849177 | +91 7348849077</h3>
+          <h3>business@altairavenue.com</h3>
+          <h3>WhatsApp / Instagram</h3>
 
           <h2 id="forms">Forms</h2>
-          <form method="post" action="#">
+          <form method="post" name="contact" data-netlify="true">
             <div className="row gtr-uniform">
               <div className="col-6 col-12-xsmall">
                 <input
@@ -51,9 +43,7 @@ const ElementsPage = ({ data }, location) => {
                   placeholder="Email"
                 />
               </div>
-     
-              
-              
+
               {/* Break */}
               <div className="col-6 col-12-small">
                 <input
@@ -90,10 +80,8 @@ const ElementsPage = ({ data }, location) => {
                 </ul>
               </div>
             </div>
-            
           </form>
-         
-            </div>
+        </div>
       </article>
     </Layout>
   )

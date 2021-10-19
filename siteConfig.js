@@ -1,10 +1,9 @@
 module.exports = {
   name: "Altair Avenue",
-  shortName: "LAM",
-  description:
-    "A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery",
-  url: "https://gatsby-lam.weensy.co", // Domain of your site without prefix!
+  shortName: "AltairAvenue",
+  description: "Premium Interior Designers, Builders and Consultants",
+  url: "https://altairavenue.com", // Domain of your site without prefix!
   prefix: "/",
-  author: "weensykim",
+  author: "haloweave",
   twitter: "",
 }
