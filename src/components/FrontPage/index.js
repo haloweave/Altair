@@ -62,13 +62,15 @@ export default class index extends Component {
         <section class="block section-intro">
           <div class="item-parallax-content flex-container">
             <div class="centered-content">
-              <h2 class="head-small head-centered">Visibility</h2>
+              <h2 class="head-small head-centered">About</h2>
               <p class="copy copy-white">
-                One morning, when Gregor Samsa woke from troubled dreams, he
-                found himself transformed in his bed into a horrible vermin. He
-                lay on his armour-like back, and if he lifted his head a little
-                he could see his brown belly, slightly domed and divided by
-                arches into stiff sections.
+              Altair Avenue is a subsidiary of Veritas Fintech Solutions, a full-
+service interior design firm located in Bangalore area since
+2008, specializing in both residential and commercial design.
+Whether you need a quick refresh of furniture and paint colors,
+or an extensive whole-house renovation, we can provide the
+expertise to make sure the project runs smoothly and gives you
+the best results possible.
               </p>
               <p class="copy copy-white">
                 The bedding was hardly able to cover it and seemed ready to
