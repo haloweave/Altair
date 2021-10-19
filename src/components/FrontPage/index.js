@@ -64,19 +64,19 @@ export default class index extends Component {
             <div class="centered-content">
               <h2 class="head-small head-centered">About</h2>
               <p class="copy copy-white">
-              Altair Avenue is a subsidiary of Veritas Fintech Solutions, a full-
-service interior design firm located in Bangalore area since
-2008, specializing in both residential and commercial design.
-Whether you need a quick refresh of furniture and paint colors,
-or an extensive whole-house renovation, we can provide the
-expertise to make sure the project runs smoothly and gives you
-the best results possible.
+                Altair Avenue is a subsidiary of Veritas Fintech Solutions, a
+                full- service interior design firm located in Bangalore area
+                since 2008, specializing in both residential and commercial
+                design. Whether you need a quick refresh of furniture and paint
+                colors, or an extensive whole-house renovation, we can provide
+                the expertise to make sure the project runs smoothly and gives
+                you the best results possible.
               </p>
               <p class="copy copy-white">
-                The bedding was hardly able to cover it and seemed ready to
-                slide off any moment. His many legs, pitifully thin compared
-                with the size of the rest of him, waved about helplessly as he
-                looked. "What's happened to me?" he thought.
+                Our vision is to be a reputable, sustainable, and desirable
+                premier luxurious interior design firm of the global market
+                place providing the state-of-the- art innovative designs and
+                superior quality finishing.
               </p>
             </div>
           </div>
