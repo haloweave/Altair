@@ -92,13 +92,13 @@ export default class index extends Component {
           </figure>
           <div class="item-parallax-content flex-container">
             <div class="centered-content">
-              <h1 class="head-large head-centered">
-                Garden <br />
-                of Eden
-              </h1>
+              <h1 class="head-large head-centered"></h1>
               <p class="copy copy-white">
-                One morning, when Gregor Samsa woke from troubled dreams, he
-                found himself transformed in his bed into a horrible vermin.
+                With the finest of skilled workforce and decades of experience
+                with us, we create experiences for your needs, and craft the
+                finest of handcrafted wood-works, elaborate stone-works, custom
+                lightings, smart home solutions, and much more to meet your
+                needs.
               </p>
             </div>
           </div>
@@ -112,11 +112,12 @@ export default class index extends Component {
                 alt=""
               />
               <figcaption class="img-caption">
-                <h2 class="head-small">Free Soul</h2>
+                <h2 class="head-small">Our Vision</h2>
                 <p class="copy copy-white">
-                  Apparently we had reached a great height in the atmosphere,
-                  for the sky was a dead black, and the stars had ceased to
-                  twinkle.
+                  To be a reputable, sustainable, and desirable premier
+                  luxurious interior design firm of the global market place
+                  providing the state-of-the- art innovative designs and
+                  superior quality finishing.
                 </p>
               </figcaption>
             </figure>
@@ -126,11 +127,12 @@ export default class index extends Component {
                 alt=""
               />
               <figcaption class="img-caption">
-                <h2 class="head-small">Free Mind</h2>
+                <h2 class="head-small">Our Mission</h2>
                 <p class="copy copy-white">
-                  A peep at some distant orb has power to raise and purify our
-                  thoughts like a strain of sacred music, or a noble picture, or
-                  a passage from the grander poets.
+                  To create experience and value that combine functionality with
+                  high quality and innovation for our customers. Also, to define
+                  the most sophisticated and superior standard of quality in
+                  every exterior and interior designs.
                 </p>
               </figcaption>
             </figure>
