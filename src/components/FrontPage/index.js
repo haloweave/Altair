@@ -92,7 +92,7 @@ export default class index extends Component {
           </figure>
           <div class="item-parallax-content flex-container">
             <div class="centered-content">
-              <h1 class="head-large head-centered"></h1>
+              <h1 class="head-large head-centered">We Are More</h1>
               <p class="copy copy-white">
                 With the finest of skilled workforce and decades of experience
                 with us, we create experiences for your needs, and craft the
