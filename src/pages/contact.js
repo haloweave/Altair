@@ -20,7 +20,7 @@ const ElementsPage = ({ data }, location) => {
           <h2 id="this-is-a-section">Contact Us</h2>
           <h3>+91 7348849177 | +91 7348849077</h3>
           <h3>business@altairavenue.com</h3>
-          <h3>WhatsApp / Instagram</h3>
+          <h3>WhatsApp / Instagram This is a test</h3>
 
           <h2 id="forms">Forms</h2>
           <form method="post" name="contact" data-netlify="true">
